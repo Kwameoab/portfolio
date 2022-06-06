@@ -1,3 +1,8 @@
-function contactEmail() {
-  window.alert("My contact email is: Kwameamp123@gmail.com.");
-}
+var nav = document.querySelector("nav");
+window.addEventListener("scroll", function () {
+  if (window.pageYOffset > 50) {
+    nav.classList.add("glass");
+  } else {
+    nav.classList.remove("glass");
+  }
+});
