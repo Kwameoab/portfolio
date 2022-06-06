@@ -1,150 +1,55 @@
-.custom-logo {
-  width: 30%;
-  height: 30%;
-  object-fit: contain;
-}
-
-.main .navbar-nav a:hover {
-  background: linear-gradient(rgb(50, 50, 50), rgb(160, 35, 150));
-}
-
-.main .navbar-nav .active {
-  background: linear-gradient(rgb(50, 50, 50), rgb(55, 55, 180));
-}
-header.masthead {
-  margin-bottom: 50px;
-  background: no-repeat center center;
-  background-color: #868e96;
-  background-attachment: scroll;
-  position: relative;
-  background-size: cover;
-}
-
-header.masthead .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #212529;
-  opacity: 0.5;
-}
-
-header.masthead .page-heading,
-header.masthead .post-heading,
-header.masthead .site-heading {
-  padding: 200px 0 150px;
-  color: white;
-}
-
-@media only screen and (min-width: 768px) {
-  header.masthead .page-heading,
-  header.masthead .post-heading,
-  header.masthead .site-heading {
-    padding: 200px 0;
-  }
-}
-
-header.masthead .page-heading,
-header.masthead .site-heading {
-  text-align: center;
-}
-
-header.masthead .page-heading h1,
-header.masthead .site-heading h1 {
-  font-size: 50px;
-  margin-top: 0;
-}
-
-header.masthead .page-heading .subheading,
-header.masthead .site-heading .subheading {
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 1.1;
-  display: block;
-  margin: 10px 0 0;
-  font-family: "Dancing Script", cursive;
-}
-
-@media only screen and (min-width: 768px) {
-  header.masthead .page-heading h1,
-  header.masthead .site-heading h1 {
-    font-size: 80px;
-  }
-}
-
-header.masthead .post-heading h1 {
-  font-size: 35px;
-}
-
-header.masthead .post-heading .meta,
-header.masthead .post-heading .subheading {
-  line-height: 1.1;
-  display: block;
-}
-
-header.masthead .post-heading .subheading {
-  font-size: 24px;
-  font-weight: 600;
-  margin: 10px 0 30px;
-  font-family: "Dancing Script", cursive;
-}
-
-header.masthead .post-heading .meta {
-  font-size: 20px;
-  font-weight: 300;
-  font-style: italic;
-  font-family: "Dancing Script", cursive;
-}
-
-header.masthead .post-heading .meta a {
-  color: #fff;
-}
-
-@media only screen and (min-width: 768px) {
-  header.masthead .post-heading h1 {
-    font-size: 55px;
-  }
-  header.masthead .post-heading .subheading {
-    font-size: 30px;
-  }
-}
-
 body {
-  background-color: rgb(50, 50, 50);
-  color: white;
-  font-family: "Raleway", sans-serif;
+  /* background-color:  #D9F0FF; */
+  background: url(../image/background.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'League Spartan', sans-serif;
 }
 
-.contact-image {
-  width: 30px;
-  height: 30px;
-}
-
-.contact-image:hover {
-  opacity: 0.3;
-}
-
-footer {
-  padding: 50px 0 65px;
-}
-
-footer .list-inline {
-  margin: 0;
-  padding: 0;
-}
-
-footer .copyright {
-  font-size: 14px;
-  margin-bottom: 0;
+.site-heading {
   text-align: center;
 }
 
-.pic-text {
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content{
+  flex: 1;
   text-align: center;
 }
 
-.vandy-logo {
+.footer {
+  text-align: center;
+}
+
+.glass {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(100%) brightness(100%) saturate(150%);
+}
+
+.navbar-nav a:hover {
+   background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+}
+
+.list-group-item {
+  background-color: transparent;
+}
+
+.project-images {
   height: 177px;
 }
 
@@ -152,6 +57,11 @@ footer .copyright {
   width: 300px;
 }
 
-.list-group-item {
-  background-color: rgb(50, 50, 50);
+.contact-image {
+  width: 30px;
+  height: 30px;
+}
+
+.copy-line {
+  margin:0;
 }

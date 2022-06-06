@@ -2,153 +2,121 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects</title>
-  <!-- Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>projects::Kwame</title>
 
-  <!-- Bootstrap css file -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <header>
-    <div class="main">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html"><img src="./image/logo.png" alt="Kwame Logo" class="custom-logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="mr-auto"></div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="education.html">Education</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
+<body class="Site">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-0">
+        <div class="container">
+            <a class="navbar-brand text-black" href="index.html">Kwame</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="education.html">Education</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-    </div>
-  </header>
-
-  <header class="masthead" style="background-image: url('image/projects.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1>Projects</h1>
-            <span class="subheading">Summarization of recent personal projects</span>
-          </div>
+    </nav>
+    <div class="container my-3 d-grid gap-5">
+        <div class="pt-5 px-4">
+            <div class="display-1 site-heading">
+                Projects
+            </div>
+            <div class="lead site-heading">
+                These are some of the projects I have completed and am currently working on.
+            </div>
         </div>
-      </div>
     </div>
-  </header>
-
-  <div class="container">
-    <div class="row justify-content-between pic-text">
-      <div class="col-lg-3 col-md-4">
-        <a href="https://github.com/Kwameoab/DiscordBot" target="_blank">
-          <img src="./image/discord.svg" alt="Discord" class="vandy-logo" href="https://github.com/Kwameoab/DiscordBot">
-        </a>
-
-      </div>
-      <div class="col-lg-5 col-md-6">
-        <h2>Discord Bot</h2>
-        <ul class="list-group">
-          <li class="list-group-item">I created and locally hosted a Discord
-            bot for a server my friends and I have for playing League of Legends</li>
-          <li class="list-group-item">The bot is able to do basic bot commands
-            such as ban, kick and unban</li>
-          <li class="list-group-item">The main feature of the bot is that it is 
-            able to web scrape and send messages to the server to give the 
-            users a competitive edge</li>
-          <li class="list-group-item">Made with: Python</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <hr>
-  <div class="container">
-    <div class="row justify-content-between pic-text">
-      <div class="col-lg-3 col-md-4">
-        <a href="https://github.com/Kwameoab/portfolio" target="_blank">
-          <img src="./image/logo.png" alt="Logo for this Website" class="logo-body">
-        </a>
-
-      </div>
-      <div class="col-lg-5 col-md-6">
-        <h2>Portfolio Website</h2>
-        <ul class="list-group">
-          <li class="list-group-item">I created this static website to be a hub for
-            my projects and to be an abridged version of my resume
-          </li>
-          <li class="list-group-item">Made with: HTML, CSS[Bootstrap], JavaScript</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <hr>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="https://github.com/Kwameoab/" target="_blank">
-                <span>
-                  <img src="./image/github.png" alt="github" class="contact-image">
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/kwame-ampadu-boateng-672a49195/" target="_blank">
-                <span>
-                  <img src="./image/linkedin.svg" alt="linkedin" class="contact-image">
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <span>
-                <img src="./image/gmail.png" alt="linkedin" class="contact-image" onclick="contactEmail()">
-              </span>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Kwame Ampadu-Boateng 2020</p>
+    <div class="site-content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4">
+                    <a href="https://github.com/Kwameoab/DiscordBot" target="_blank">
+                        <img src="./image/discord.svg" alt="Discord" class="project-images"
+                            href="https://github.com/Kwameoab/DiscordBot">
+                    </a>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <h1>Discord Bot</h2>
+                        <p>
+                            I created and locally hosted a Discord bot for a server my friends and I use for playing
+                            League
+                            of Legends
+                        </p>
+                        <p>
+                            The bot is able to do basic bot commands such as ban, kick and unban
+                        </p>
+                        <p>
+                            The defining feature of the bot is that it is able to web scrape and send picture from
+                            websites to give us a competitive edge
+                        </p>
+                        <em>
+                            Made with: Python (Libraries used: Discord.py, BeautifulSoup, and Selenium)
+                        </em>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
 
-  <!-- Custom JS -->
-  <script src="./js/script.js"></script>
-  <!-- Bootstrap JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+        <br>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4">
+                    <a href="https://github.com/Kwameoab/portfolio" target="_blank">
+                        <img src="./image/logo.png" alt="Logo for this Website" class="logo-body">
+                    </a>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <h1>Portfolio Website</h1>
+                    <p>
+                        I created this static website to be a hub for my projects and to be an abridged version of my
+                        resume
+                    </p>
+                    <em>
+                        Made with: HTML, CSS(Bootstrap 5), JavaScript
+                    </em>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-4">
+        <footer class="mx-auto">
+            <hr>
+            <div class="container footer">
+                <span class="text-muted"> <b>Last updated: June 2023</b></span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
