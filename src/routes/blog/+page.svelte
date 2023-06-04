@@ -16,7 +16,7 @@
                     class="card card-compact bg-base-100 shadow-xl hover:shadow-2xl h-60"
                 >
                     <div class="card-body h-36">
-                        <h2 class="card-title text-2xl">{blogPosts.title}!</h2>
+                        <h2 class="card-title text-2xl">{blogPosts.title}</h2>
                         <div class="overflow-y-hidden h-32">
                             <p class="items-center text-lg">
                                 {blogPosts.description}

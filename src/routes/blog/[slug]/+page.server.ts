@@ -19,7 +19,7 @@ export async function load({ fetch, params }) {
             type: "article",
             title: post.metadata.title,
             description: post.metadata.description,
-            ogUrl: `https://kwameoab.github.io/portfolio/${params.slug}.html`,
+            ogUrl: `https://kwameoab.github.io/portfolio/${params.slug}`,
             categories: postInfo.categories,
             published_time: new Date(
                 post.metadata.published_date

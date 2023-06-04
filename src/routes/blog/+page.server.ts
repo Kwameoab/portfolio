@@ -8,7 +8,7 @@ export async function load() {
         posts,
         seo: {
             title: "Kwameoab::blog",
-            ogUrl: "https://kwameoab.github.io/portfolio/blog.html",
+            ogUrl: "https://kwameoab.github.io/portfolio/blog",
         },
     };
 }

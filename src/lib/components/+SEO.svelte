@@ -42,7 +42,7 @@
     <meta
         name="og:url"
         content={$page.data?.seo?.ogUrl ||
-            "https://kwameoab.github.io/portfolio/"}
+            "https://kwameoab.github.io/portfolio"}
     />
 
     <!-- OG SEO Optional -->

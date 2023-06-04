@@ -29,11 +29,11 @@
                 <em> Made with: SvelteKit, Tailwind (Skeleton), PocketBase </em>
 
                 <div class="card-actions justify-end">
-                    <a href="{base}/">
+                    <a href="{base}/blog/RP-Chat-Tech-Write-Up">
                         <button class="btn btn-primary">Write-Up</button></a
                     >
                     <a
-                        href="https://github.com/Kwameoab/portfolio"
+                        href="https://github.com/Kwameoab/Rock-Paper-Chat"
                         target="_blank"
                     >
                         <button class="btn btn-primary">Github</button></a
