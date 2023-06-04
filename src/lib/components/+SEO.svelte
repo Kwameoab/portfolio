@@ -1,6 +1,6 @@
 <script>
     import { page } from "$app/stores";
-    import { base } from '$app/paths';
+    import { base } from "$app/paths";
 </script>
 
 <svelte:head>
@@ -19,7 +19,7 @@
 
     <!-- Twitter SEO -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="{base}/images/logo.png" />
+    <meta name="twitter:image" content="/{base}/images/logo.png" />
     <meta name="twitter:image:alt" content="My logo for this website." />
     <meta
         name="twitter:description"
@@ -37,7 +37,7 @@
     <meta name="og:type" content={$page.data?.seo?.type || "website"} />
     <meta
         name="og:image"
-        content={$page.data?.seo?.image || + `${base}/images/logo.png`}
+        content={$page.data?.seo?.image || base + "/images/logo.png"}
     />
     <meta
         name="og:url"
