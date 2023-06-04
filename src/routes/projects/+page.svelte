@@ -1,3 +1,6 @@
+<script>
+    import { base } from '$app/paths';
+</script>
 <div class="text-center container p-10 mx-auto">
     <h1 class="text-5xl font-bold">My Personal Projects</h1>
     <p class="py-5 text-lg">
@@ -12,10 +15,9 @@
             <figure class="lg:w-2/5">
                 <img
                     src="images/rock-paper.png"
-                    alt="my logo"
+                    alt="logo for rock paper chat"
                     width="128"
                     height="128"
-                    href="https://github.com/Kwameoab/DiscordBot"
                 />
             </figure>
             <div class="card-body">
@@ -27,7 +29,7 @@
                 <em> Made with: SvelteKit, Tailwind (Skeleton), PocketBase </em>
 
                 <div class="card-actions justify-end">
-                    <a href="/">
+                    <a href="{base}/">
                         <button class="btn btn-primary">Write-Up</button></a
                     >
                     <a

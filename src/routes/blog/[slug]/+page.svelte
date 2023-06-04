@@ -4,7 +4,6 @@
 
 <div class="flex">
     <div class="container p-10 mx-auto">
-        <!-- <pre>{JSON.stringify(data.meta, null, 4)}</pre> -->
         <div class="flex justify-center xl:px-36">
             <div>
                 <div

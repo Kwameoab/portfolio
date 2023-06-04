@@ -1,4 +1,6 @@
 <script>
+    import { base } from '$app/paths';
+
     export let data;
 
     let posts = data.posts;
@@ -9,7 +11,7 @@
     <p class="py-5 text-lg">Here are my thoughts on a variety of topics.</p>
     <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {#each posts as blogPosts}
-            <a href="/blog/{blogPosts.url}">
+            <a href="{base}/blog/{blogPosts.url}">
                 <div
                     class="card card-compact bg-base-100 shadow-xl hover:shadow-2xl h-60"
                 >
