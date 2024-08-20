@@ -16,7 +16,7 @@
                         >Vanderbilt University</span
                     >. I am currently working at
                     <span class="text-primary-focus font-bold">Stripe</span> (start
-                    date August 2023). Theses are some of the places where you can
+                    date August 2023). These are some of the places where you can
                     find me:
                 </p>
                 <p class="flex space-x-5 justify-center">
