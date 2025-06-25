@@ -10,14 +10,13 @@
                     Hi there, I'm <span class="text-primary">Kwame</span>!
                 </h1>
                 <p class="py-6 text-lg">
-                    I love creating and solving problems, especially if they
-                    involve computers. I am a recent Computer Science Graduate
-                    from <span class="text-primary-focus font-bold"
+                    I am a Computer Science Graduate from
+                    <span class="text-primary-focus font-bold"
                         >Vanderbilt University</span
-                    >. I am currently working at
-                    <span class="text-primary-focus font-bold">Stripe</span> (start
-                    date August 2023). These are some of the places where you can
-                    find me:
+                    >
+                    and am currently working as a Software Engineer at
+                    <span class="text-primary-focus font-bold">Stripe</span>.
+                    <br>Here are some places you can find me:
                 </p>
                 <p class="flex space-x-5 justify-center">
                     <a
