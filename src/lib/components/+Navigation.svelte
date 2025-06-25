@@ -29,6 +29,11 @@
                         >Blog</a
                     >
                 </li>
+                <li>
+                    <a class="{classesActive('/game')} text-lg" href="{base}/game"
+                        >Game</a
+                    >
+                </li>
             </ul>
         </div>
     </div>
