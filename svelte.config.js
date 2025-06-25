@@ -21,7 +21,7 @@ const config = {
             assets: "build",
             fallback: undefined,
             precompress: false,
-            strict: false,
+            strict: true,
         }),
         paths: {
             base: dev ? '' : process.env.BASE_PATH,
