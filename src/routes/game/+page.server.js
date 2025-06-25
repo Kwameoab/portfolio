@@ -1,1 +1,2 @@
-export const ssr = true;      // dont prerender but ssr it
+export const ssr = false;
+export const prerender = false;
